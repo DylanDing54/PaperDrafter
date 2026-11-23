@@ -1,0 +1,17 @@
+\usepackage[margin=24mm]{geometry}
+\usepackage{xeCJK,xcolor,unicode-math}
+\setmathfont{latinmodern-math.otf}
+\setmainfont[BoldFont=LinLibertine_RB.otf,ItalicFont=LinLibertine_RI.otf]{LinLibertine_R.otf}
+\setsansfont{LinBiolinum_R.otf}
+\setmonofont{lmmono10-regular.otf}
+\setCJKmainfont[BoldFont=FandolSong-Bold.otf]{FandolSong-Regular.otf}
+\setCJKsansfont{FandolSong-Regular.otf}
+\definecolor{accent}{HTML}{5D5094}
+\definecolor{ink}{HTML}{272437}
+\color{ink}
+\linespread{1.18}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\newcommand{\folioheader}[2]{%
+  {\small\sffamily\color{accent}#1\hfill #2}\par
+  {\color{accent}\hrule height 1pt}}

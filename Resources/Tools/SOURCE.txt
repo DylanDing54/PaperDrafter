@@ -1,0 +1,3 @@
+SyncTeX by Jérôme Laurens. The universal macOS command-line utility is distributed by TeX Live.
+Binary archive: https://mirrors.ctan.org/systems/texlive/tlnet/archive/synctex.universal-darwin.tar.xz
+Source and license notices: https://github.com/TeX-Live/texlive-source/tree/trunk/texk/web2c/synctexdir
